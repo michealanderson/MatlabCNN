@@ -1,5 +1,5 @@
 %% load model
-tmp = load('mo.mat', 'h','mu');
+tmp = load('mo_for_vis.mat', 'h','mu');
 h = tmp.h;
 mu = tmp.mu;
 clear tmp;
