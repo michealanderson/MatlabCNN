@@ -2,7 +2,7 @@
 % (rows, cols, channels, samples) and returns the pooled data with the
 % corresponding indices.
 %
-%   [m, idx] = MaxPooling(IM, [2 2])
+ [m, idx] = MaxPooling(IM, [2 2])
 %
 % IM can also be a 2D tensor, the missing dims are set to 1.
 
